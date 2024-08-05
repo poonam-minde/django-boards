@@ -140,3 +140,5 @@ LOGIN_REDIRECT_URL = 'home'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 LOGIN_URL = 'login'
+
+CSRF_TRUSTED_ORIGINS = ['https://poonamminde24.pythonanywhere.com']
